@@ -1,0 +1,58 @@
+/*Removes pesky default margins*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Adding text color to the body of the page */
+    color: #39a6b2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Applying style to the header */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/*Adding Style to the Header */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+/*Removing hyperlink default colors and adding yellow*/
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/*Giving our header inline properties*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/*Setting the nav bar to the right*/
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/*Making the nav bar inline*/
+header nav ul li {
+    display: inline;
+}
+
+/*Spacing out the nav bar items*/
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
